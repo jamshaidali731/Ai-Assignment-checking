@@ -1,0 +1,32 @@
+# Django & REST Framework
+Django>=4.0
+djangorestframework>=3.14
+djangorestframework-simplejwt>=5.2.2
+django-cors-headers>=4.2.0
+onesignal-sdk==2.0.0
+psycopg2-binary>=2.9
+
+# NLP & Semantic Embeddings
+sentence-transformers>=2.2.2
+transformers>=4.21.1
+#torch>=1.12.0
+torch @ https://download.pytorch.org/whl/cpu/torch-2.5.1%2Bcpu-cp310-cp310-linux_x86_64.whl
+# Document Handling
+python-docx>=0.8.11
+chardet>=5.2.0
+
+# Web Server
+gunicorn>=21.2.0
+
+# Optional: If you re-enable PDF support later
+PyMuPDF==1.22.5
+
+# AWS S3 Storage
+django-storages>=1.13.2
+boto3>=1.28.0
+
+# Supporting dependencies (implicitly required)
+pytz>=2022.1
+sqlparse>=0.4.3
+openai>=1.0.0
+python-dotenv
